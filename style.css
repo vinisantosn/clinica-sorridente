@@ -1,0 +1,64 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #032436;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:#032436;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover
+{
+    color:#fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.section-title{
+    font-family: 'Calistoga', cursive;
+    
+
+}
+
+#sobre-o-restaurante, #cardapio{
+    background-color: #6F90A2;
+}
+
+.text-colored{
+    color:#032436;
+}
+
+.nav-cardapio .nav-link.active, 
+#fale-conosco button{
+    background-color: #032436;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #032436;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration:none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 200px;
+    }
+}

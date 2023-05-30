@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica SorriDente</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold fs-2">SorriDente</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao"> 
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        
+                        <a href="#sobre-a-clinica" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a clínica
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#especialistas" class="nav-link">
+                            <i class="bi bi-person-heart me-1"></i>
+                            Especialistas 
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#tratamentos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossos tratamentos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-clinica">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img  class="w-100" src="./images/slides/slide1.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./images/slides/slide2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./images/slides/slide3.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/clinica.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da clinica">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a clínica</span> </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maxime provident quasi ullam. Molestias, eos nostrum molestiae id, dolorum animi aut, quidem voluptatem ullam repellendus amet mollitia laboriosam deserunt asperiores?
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span> </h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere itaque illo ut ipsum. Eligendi, quibusdam doloremque. Nam rerum ratione maxime reprehenderit explicabo adipisci, minus, laborum impedit fugit, nulla dolorem excepturi.
+                            </p>
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section id="especialistas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Conheça nossos <span class="text-colored">especialistas</span> </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/especialistas/joao-silva.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-clipboard2-pulse"></i>
+                            Dr. João Silva
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tenetur numquam veniam alias sed corrupti! Facilis magni deleniti aliquid nemo quaerat quia dignissimos ipsa, nihil aut dolores repellendus, voluptate quam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/especialistas/maria-santos.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-clipboard2-pulse"></i>
+                            Dra. Maria Santos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tenetur numquam veniam alias sed corrupti! Facilis magni deleniti aliquid nemo quaerat quia dignissimos ipsa, nihil aut dolores repellendus, voluptate quam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/especialistas/jose-oliveira.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-clipboard2-pulse"></i>
+                            Dr. José Oliveira
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tenetur numquam veniam alias sed corrupti! Facilis magni deleniti aliquid nemo quaerat quia dignissimos ipsa, nihil aut dolores repellendus, voluptate quam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="tratamentos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored"> tratamentos</span> </h2>
+                
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-tratamentos">
+                            <button type="button"  data-bs-toggle="tab" data-bs-target="#endodontia" class="nav-link fw-bold text-start text-colored active"> Endodontia</button>
+                            <button type="button"  data-bs-toggle="tab" data-bs-target="#periodontia" class="nav-link fw-bold text-start  text-colored"> Periodontia</button>
+                            <button type="button"  data-bs-toggle="tab" data-bs-target="#ortodontia" class="nav-link fw-bold text-start  text-colored"> Ortodontia</button>
+                            <button type="button"  data-bs-toggle="tab" data-bs-target="#clinica-geral" class="nav-link fw-bold text-start  text-colored"> Clínica geral</button>
+                            <button type="button"  data-bs-toggle="tab" data-bs-target="#clareamento" class="nav-link fw-bold text-start  text-colored"> Clareamento</button>
+
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="endodontia">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="fw-bold mt-2"> O que é Endodontia </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eos quas fugit culpa sit enim obcaecati illo nemo dolore praesentium minima tempora, sapiente architecto molestiae distinctio deleniti nobis quod cumque.
+                                        </p>
+
+                                        <h5 class="fw-bold mt-2"> Como tratamos? </h5>
+
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, nobis consectetur? Praesentium quasi molestias et exercitationem eveniet! Temporibus ea quis distinctio aliquid quam eum dolor fuga expedita blanditiis cum. Laborum?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/endodontia/ferramentas.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Ferramenta 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/endodontia/ferramentas.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2"> Ferramenta</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/endodontia/ferramentas.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2"> Ferramenta</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="periodontia">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="fw-bold mt-2"> O que é Periodontia </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eos quas fugit culpa sit enim obcaecati illo nemo dolore praesentium minima tempora, sapiente architecto molestiae distinctio deleniti nobis quod cumque.
+                                        </p>
+
+                                        <h5 class="fw-bold mt-2"> Como tratamos? </h5>
+
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, nobis consectetur? Praesentium quasi molestias et exercitationem eveniet! Temporibus ea quis distinctio aliquid quam eum dolor fuga expedita blanditiis cum. Laborum?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/periodontia/gengiva.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/periodontia/gengiva.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/periodontia/gengiva.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ortodontia">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="fw-bold mt-2"> O que é Ortodontia </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eos quas fugit culpa sit enim obcaecati illo nemo dolore praesentium minima tempora, sapiente architecto molestiae distinctio deleniti nobis quod cumque.
+                                        </p>
+
+                                        <h5 class="fw-bold mt-2"> Como tratamos? </h5>
+
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, nobis consectetur? Praesentium quasi molestias et exercitationem eveniet! Temporibus ea quis distinctio aliquid quam eum dolor fuga expedita blanditiis cum. Laborum?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/ortodontia/aparelho.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/ortodontia/aparelho.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/ortodontia/aparelho.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="clinica-geral">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="fw-bold mt-2"> O que é Clinica Geral </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eos quas fugit culpa sit enim obcaecati illo nemo dolore praesentium minima tempora, sapiente architecto molestiae distinctio deleniti nobis quod cumque.
+                                        </p>
+
+                                        <h5 class="fw-bold mt-2"> Como tratamos? </h5>
+
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, nobis consectetur? Praesentium quasi molestias et exercitationem eveniet! Temporibus ea quis distinctio aliquid quam eum dolor fuga expedita blanditiis cum. Laborum?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/clinica-geral/clinica-geral-1.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/clinica-geral/clinica-geral-1.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/clinica-geral/clinica-geral-1.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="clareamento">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="fw-bold mt-2"> O que é Clareamento </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eos quas fugit culpa sit enim obcaecati illo nemo dolore praesentium minima tempora, sapiente architecto molestiae distinctio deleniti nobis quod cumque.
+                                        </p>
+
+                                        <h5 class="fw-bold mt-2"> Como tratamos? </h5>
+
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, nobis consectetur? Praesentium quasi molestias et exercitationem eveniet! Temporibus ea quis distinctio aliquid quam eum dolor fuga expedita blanditiis cum. Laborum?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/clareamento/clareamento-boca.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/clareamento/clareamento-boca.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img  class="d-block w-100" src="./images/tratamentos/clareamento/clareamento-boca.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2"> Titulo </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"> Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored"> Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored"> Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" name="email" >
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored"> Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored"> Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" name="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua terceiro molar, nº 146, Bairro Dentário - São Luís - MA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="arquivos-js/jquery.mask.min.js"></script>
+    <script src="arquivos-js/jquery.validate.min.js"></script>
+    <script src="arquivos-js/messages_pt_BR.min.js"></script>
+    <script src="arquivos-js/main.js"></script>
+</body>
+</html>
